@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reqb"
+    tools:context="org.example.vtraffic.RequestActivity">
+
+    <ImageView
+        android:id="@+id/ivRequestBoard"
+        android:layout_width="800dp"
+        android:layout_height="350dp"
+        app:srcCompat="@drawable/road"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="82dp" />
+
+    <TextView
+        android:id="@+id/tvRequest"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text='Send a "Request"'
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="@color/req_head_color"/>
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        app:srcCompat="@drawable/ic_action_back"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/ivRequestBoard"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="Select the direction you want to go"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/req_sent_color"/>
+
+    <ImageButton
+        android:id="@+id/ibArrowLeft"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/ic_action_left"
+        android:background="@drawable/request_arrows"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/ivBack"
+        android:layout_toEndOf="@+id/ivBack"
+        android:layout_marginBottom="10dp" />
+
+    <ImageButton
+        android:id="@+id/ibArrowForward"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/ic_action_forward"
+        android:layout_alignTop="@+id/ibArrowLeft"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/request_arrows"
+        />
+
+    <ImageButton
+        android:id="@+id/ibArrowRight"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/ibArrowForward"
+        android:layout_marginLeft="37dp"
+        android:layout_marginStart="37dp"
+        android:layout_toEndOf="@+id/ibArrowForward"
+        android:layout_toRightOf="@+id/ibArrowForward"
+        android:background="@drawable/request_arrows"
+        app:srcCompat="@drawable/ic_action_right" />
+
+    <ImageView
+        android:id="@+id/imageViewSouth"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignLeft="@+id/ibArrowForward"
+        android:layout_alignStart="@+id/ibArrowForward"
+        android:layout_marginBottom="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp"
+        app:srcCompat="@drawable/ic_action_location" />
+
+
+</RelativeLayout>

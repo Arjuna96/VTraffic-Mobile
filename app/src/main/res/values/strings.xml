@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VTraffic</string>
+    <string name="required">required</string>
+    <string name="mismatch">mismatch</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_pedestrian_maps">Map</string>
+    <string name="title_activity_ped_maps">Map</string>
+</resources>
