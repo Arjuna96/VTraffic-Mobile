@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/whobck"
-    tools:context="org.example.vtraffic.UserLogActivity">
+    android:background="@drawable/bgmaincolor"
+    tools:context="org.example.vtraffic.activity.UserLogActivity">
 
 
     <fragment
         android:id="@+id/user_log_fragment"
-        class="org.example.vtraffic.UserLogFragment"
+        class="org.example.vtraffic.fragment.UserLogFragment"
         android:layout_width="307dp"
         android:layout_height="506dp"
         android:layout_gravity="center"

@@ -10,13 +10,15 @@
     <color name ="hint_color">#dd99ff</color>
     <color name ="text_color">#d580ff</color>
     <color name ="button_color">#cc0099</color>
-    <color name ="user_color">#99ddff</color>
-    <color name ="text_hint_color">#26004d</color>
-    <color name ="text_reg_color">#003d66</color>
-    <color name ="req_head_color">#ff4d4d</color>
+    <color name ="user_color">#f7b221</color>
+    <color name ="text_hint_color">#3952a2</color>
+    <color name ="text_reg_color">#0593f2</color>
+    <color name ="req_head_color">#31b466</color>
     <color name ="req_sent_color">#4d0000</color>
     <color name ="req_ped_color">#006600</color>
     <color name ="req_ped_back_color">#66ff66</color>
+    <color name ="usertxt_color">#f0940a</color>
+    <color name ="state_clr">#c5d9c7</color>
 
 
 

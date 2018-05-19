@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/pbck"
-    tools:context="org.example.vtraffic.PedestrianRequestActivity">
+    tools:context="org.example.vtraffic.activity.PedestrianRequestActivity">
 
 
     <ImageView
@@ -20,7 +20,7 @@
         android:layout_marginTop="82dp" />
 
     <TextView
-        android:id="@+id/tvRequest"
+        android:id="@+id/tvConfirm"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_alignParentTop="true"
@@ -50,8 +50,8 @@
         android:layout_height="50dp"
         app:srcCompat="@drawable/ic_action_pedestrain"
         android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/tvRequest"
-        android:layout_alignStart="@+id/tvRequest"
+        android:layout_alignLeft="@+id/tvConfirm"
+        android:layout_alignStart="@+id/tvConfirm"
         android:layout_marginLeft="12dp"
         android:layout_marginStart="12dp" />
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/reqb"
-    tools:context="org.example.vtraffic.RequestActivity">
+    tools:context="org.example.vtraffic.activity.RequestActivity">
 
     <ImageView
         android:id="@+id/ivRequestBoard"
@@ -19,7 +19,7 @@
         android:layout_marginTop="82dp" />
 
     <TextView
-        android:id="@+id/tvRequest"
+        android:id="@+id/tvConfirm"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_alignParentTop="true"

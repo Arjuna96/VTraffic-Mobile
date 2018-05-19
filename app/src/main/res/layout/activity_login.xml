@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/lobck"
-    tools:context="org.example.vtraffic.LoginActivity">
+    android:background="@drawable/bgmaincolor"
+    tools:context="org.example.vtraffic.activity.LoginActivity">
 
     <fragment
         android:id="@+id/login_fragment"
-        class="org.example.vtraffic.LoginFragment"
+        class="org.example.vtraffic.fragment.LoginFragment"
 
 
         android:layout_width="307dp"
